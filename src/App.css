@@ -1369,7 +1369,7 @@ nav ul ul li a {
 .wpo-service-icon-3,
 .wpo-service-icon-4 {
 	float: left;
-	background: url(http://follio-react.wpocean.com/static/media/shape.482143e4.png) 50% / cover no-repeat local;
+	background: url('./assets/shape1-icon.png') 50% / cover no-repeat local !important;
 	width: 200px;
 	height: 184px;
 	text-align: center;
@@ -1385,15 +1385,15 @@ nav ul ul li a {
 	margin-left: 20px;
 }
 .wpo-service-icon-2 {
-	background: url(http://follio-react.wpocean.com/static/media/shape-2.a49e63ca.png) 50% / cover no-repeat local;
+	background: url('./assets/shape2-icon.png') 50% / cover no-repeat local !important;
 	width: 207px;
 	height: 185px;
 }
 .wpo-service-icon-3 {
-	background: url(http://follio-react.wpocean.com/static/media/shape-3.9d276bde.png) 50% / cover no-repeat local;
+	background: url('./assets/shape3-icon.png') 50% / cover no-repeat local !important;
 }
 .wpo-service-icon-4 {
-	background: url(http://follio-react.wpocean.com/static/media/shape-4.02e878bf.png) 50% / cover no-repeat local;
+	background: url('./assets/shape4-icon.png') 50% / cover no-repeat local !important;
 	width: 209px;
 }
 .wpo-service-text {
@@ -2474,6 +2474,7 @@ h2 {
 	color: #fff;
 	margin-bottom: 50px;
 }
+
 .about-area .nav li a {
 	display: block;
 	width: 210px;
@@ -2520,7 +2521,7 @@ h2 {
 .wpo-service-icon-3,
 .wpo-service-icon-4 {
 	float: left;
-	background: url(http://follio-react.wpocean.com/static/media/shape.482143e4.png) 50% / cover no-repeat local;
+	background: url('./assets/testomonial-bg.jpg') 50% / cover no-repeat local;
 	width: 200px;
 	height: 184px;
 	text-align: center;
@@ -3052,3 +3053,18 @@ img {
 	font-weight: 400;
 	font-style: normal;
 } */
+
+.carousel .control-dots .dot {
+	border-radius: 0% !important;
+	width: 20px !important;
+	height: 2px !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+	background-color: #211f90;
+	padding: 50px;
+}
+
+.underline-none {
+	text-decoration: none;
+}
