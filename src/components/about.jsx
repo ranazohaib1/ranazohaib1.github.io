@@ -24,13 +24,18 @@ const About = () => {
 									</div>
 									<div className="col-lg-6">
 										<div className="wpo-about-text">
-											<h2>I create products not just art</h2>
+											<h2>I create Interactive software's</h2>
 											<p>
-												My name is John Smith. I am a web designer and developer.Lorem ipsum
-												dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-												incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-												ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-												facilisis.{' '}
+												A Full-stack developer working with the cutting edge MERN technology
+												who's not only passionate to develop end-to-end SaaS-based solutions but
+												also in constant pursuit of finding work that makes an impact on the
+												technical growth of our society. Developing efficient and scalable
+												software architectures resulted in not only the imminent growth of my
+												technical efficiency but also fed my learning curve like nothing else. I
+												take pride in mentioning my mentors and colleagues who have had an
+												enormous impact in shaping my personality as it is today, be it the
+												technical soundness or all the other soft skills that I gained. My name
+												is Zohaib Dilshad and I am eager to collaborate with you!
 											</p>
 											<a className="theme-btn" href="#contact">
 												Lets Talk

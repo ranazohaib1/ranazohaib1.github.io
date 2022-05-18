@@ -2,7 +2,7 @@ import React from 'react';
 
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import MuneebKashif from '../assets/MuneebKashif.jpg';
 const Banner = () => {
 	return (
 		<>
@@ -11,10 +11,10 @@ const Banner = () => {
 					<div className="container">
 						<div className="row">
 							<div className="col col-md-8 slide-caption">
-								<h2 className="wow fadeInLeftSlow" data-wow-delay="1.0s">
+								<h2 className="wow fadeInLeftSlow mt-120" data-wow-delay="1.0s">
 									I’m <span>Zohaib</span> Dilshad
 								</h2>
-								<p className="wow fadeInUp" data-wow-delay="1.5s">
+								<p className="wow fadeInUp" style={{ marginTop: '40px' }} data-wow-delay="1.5s">
 									Software Developer
 								</p>
 								<div className="bg-social wow fadeInUp" data-wow-delay="2.0s">
@@ -45,7 +45,7 @@ const Banner = () => {
 					</div>
 					<div className="wpo-slide-right-img">
 						<div className="slide-img wow fadeInRightSlow" data-wow-duration="2000ms">
-							{/* <img src={Ganja} width="100%" height="100%" alt="" /> */}
+							<img src={MuneebKashif} width="100%" height="100%" alt="" />
 						</div>
 					</div>
 				</div>

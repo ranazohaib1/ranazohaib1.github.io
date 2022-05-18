@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+
+import Icon from '../assets/zohaib.png';
 
 const Navbar = () => {
 	const [active, setActive] = useState(0);
@@ -8,20 +10,10 @@ const Navbar = () => {
 			<div className="fixed-navbar animated fadeInDown active">
 				<div className="header-style-1">
 					<div className="container">
-						<div className="header-content">
-							<div className="logo">
+						<div className="header-content d-flex justify-content-between align-items-center">
+							<div className="logo mt-2">
 								<a className="underline-none" title="" href="/">
-									<h1
-										style={{
-											color: 'white',
-											fontFamily: 'cursive',
-											letterSpacing: 4,
-											textDecoration: 'none',
-											fontWeight: '800',
-										}}
-									>
-										Zohaib
-									</h1>
+									<img className="img-fluid" width="80" src={Icon} alt="" />
 								</a>
 							</div>
 							<nav class="d-lg-block d-none header-b">
@@ -113,7 +105,7 @@ const Navbar = () => {
 									</a>
 								</div>
 							</div>
-							<div className="clearfix"></div>
+							{/* <div className="clearfix"></div> */}
 						</div>
 					</div>
 				</div>
